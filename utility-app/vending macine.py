@@ -24,7 +24,7 @@ def vending_machine():
         return
 
     selected_products = products[choice]
-    print(f"You selected {selected_products['name']} which costs ${selected_products['price']:.2f}")
+    print(f"You selected {selected_products['name']} which costs aed{selected_products['price']:.2f}")
 
     # User inserts money
     try:
